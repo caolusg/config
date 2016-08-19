@@ -6,8 +6,8 @@ $CFG = new stdClass();
 
 $CFG->dbtype    = 'mysqli';
 $CFG->dblibrary = 'native';
-$CFG->dbhost    = 'ec2db.c0ktzg3ogf9l.ap-southeast-1.rds.amazonaws.com';
-$CFG->dbname    = 'website';
+$CFG->dbhost    = 'moodle.c0ktzg3ogf9l.ap-southeast-1.rds.amazonaws.com';
+$CFG->dbname    = 'moodle';
 $CFG->dbuser    = 'root';
 $CFG->dbpass    = '19850807';
 $CFG->prefix    = 'mdl_';
